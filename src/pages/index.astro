@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+
+<Base title="public diary" description="A public diary — things worth writing down.">
+  <ul class="post-list">
+    {posts.map((post) => {
+      const href = `${base}posts/${post.slug}`;
+      const formatted = post.data.pubDate.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+      });
+      return (
+        <li class="post-list-item">
+          <a href={href} class="post-title-link">
+            <h2>{post.data.title}</h2>
+          </a>
+          <div class="post-meta">{formatted}</div>
+          <p class="post-excerpt">{post.data.description}</p>
+          {post.data.tags && post.data.tags.length > 0 && (
+            <div class="tags">
+              {post.data.tags.map((tag) => <span class="tag">{tag}</span>)}
+            </div>
+          )}
+        </li>
+      );
+    })}
+  </ul>
+</Base>
