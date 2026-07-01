@@ -3,7 +3,10 @@ import { getCollection } from 'astro:content';
 
 export async function GET(context) {
   const posts = (await getCollection('posts', ({ data }) => !data.draft))
-    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+    .sort((a, b) => {
+  const diff = b.data.pubDate.valueOf() - a.data.pubDate.valueOf();
+  return diff !== 0 ? diff : b.data.order - a.data.order;
+});
 
   return rss({
     title: 'public diary',
