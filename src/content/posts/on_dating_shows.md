@@ -1,5 +1,5 @@
 ---
-title: "dating shows"
+title: "on dating shows"
 pubDate: 2026-07-01
 order: 2
 description: "why i don't watch LOVE ISLAND"
@@ -14,7 +14,7 @@ my college friend group is obsessed with LOVE ISLAND. i would estimate that curr
 3. it's icky seeing the contestants make out. maybe i'm just being immature, but i hate pda and this is no different from it.
 4. it's boring.
 
-that last reason is by far the most important reason i don't watch LOVE ISLAND. i'm realizing while writing this post that i watch tv and even watched another dating show called HOUSE OF FEELINGS. so it's not the concept of a dating show that inhibits me from watching. but for some reason, LOVE ISLAND is just so so boring to me. maybe it's because i cannot relate to any of the contestants on any level. at least on HOUSE OF FEELINGS, the contestants were all ASIAN, so i could relate with them on our background. and i feel like the conversations being had on LOVE ISLAND are so superficial. 
+i'm realizing while writing this post that i watch tv and even watched another dating show called HOUSE OF FEELINGS. so it's not the concept of a dating show that inhibits me from watching. but for some reason, LOVE ISLAND is just so so boring to me. maybe it's because i cannot relate to any of the contestants on any level. at least on HOUSE OF FEELINGS, the contestants were all ASIAN, so i could relate with them on our background. and i feel like the conversations being had on LOVE ISLAND are so superficial. 
 
 but i digress. ironic saying that when none of this was a digression and i made a dedicated post for it. but i digress. 
 
